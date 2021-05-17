@@ -42,6 +42,9 @@ stringRemoveLastSpecifiedChar('foo 𝌆 bar 𝌆 mañana mañana hello world !',
 
 // 或者使用正则
 function _stringRemoveLastSpecifiedChar(str, target) {
-  let reg = new RegExp(`${target}(?=([^${target}]*$))`) // ?=表示先行断言，会匹配到第一个target，它需满足跟在它后面到结尾都不再有target的出现
+  // ?=表示先行断言，会匹配到第一个target，它需满足跟在它后面到结尾都不再有target的出现
+  // 例如："123456o89".match(/o(?=([^o]*$))/)  => ["o", "89", index: 6, input: "123456o89", groups: undefined]
+  let reg = new RegExp(`${target}(?=([^${target}]*)$)`)
+
   return str.replace(reg, '')
 }
