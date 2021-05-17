@@ -39,3 +39,9 @@ function stringRemoveLastSpecifiedChar(str, char) {
 stringRemoveLastSpecifiedChar('foo 𝌆 bar 𝌆 mañana mañana hello world !', 'ñ') // "foo 𝌆 bar 𝌆 mañana maana hello world !"
 stringRemoveLastSpecifiedChar('foo 𝌆 bar 𝌆 mañana mañana hello world !', '𝌆') // "foo 𝌆 bar  mañana mañana hello world !"
 stringRemoveLastSpecifiedChar('foo 𝌆 bar 𝌆 mañana mañana hello world !', 'o') // "foo 𝌆 bar 𝌆 mañana mañana hello wrld !"
+
+// 或者使用正则
+function _stringRemoveLastSpecifiedChar(str, target) {
+  let reg = new RegExp(`${target}(?=([^${target}]*$))`) // ?=表示先行断言，会匹配到第一个target，它需满足跟在它后面到结尾都不再有target的出现
+  return str.replace(reg, '')
+}
