@@ -6,4 +6,4 @@
 
 [去掉字符串中的空格，按传入不同的类型分别能去掉前、后、前后、中间的空格](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/string-trim-by-position.js)<br/>
 
-[去除字符串中最后一个指定的字符](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/string-remove-last-specified-letter.js)<br/>
+[去除字符串中最后一个指定的字符](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/string-remove-last-specified-char.js)<br/>
