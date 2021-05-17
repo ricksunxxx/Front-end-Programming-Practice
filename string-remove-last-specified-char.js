@@ -9,13 +9,21 @@
  */
 
 // reference: https://stackoverflow.com/questions/958908/how-do-you-reverse-a-string-in-place-in-javascript
-// reverse a string , only dealing with simple ASCII characters
+
+// reverse a string using built-in functions, only dealing with simple ASCII characters
 function reverse(str) {
   return str.split('').reverse().join('')
 }
-reverse('foo 𝌆 bar 𝌆 mañana mañana hello world !') // "! dlrow olleh anãnam anañam \udf06\ud834 rab \udf06\ud834 oof"
+reverse('foo 𝌆 bar 𝌆 mañana mañana hello world !') // "! dlrow olleh anañam anañam �� rab �� oof"
 
-// also supports UTF-16 or other multi-byte characters
+// reverse a string without using built-in functions, only dealing with simple ASCII characters
+function reverse(s) {
+  for (var i = s.length - 1, o = ''; i >= 0; o += s[i--]) {}
+  return o
+}
+reverse('foo 𝌆 bar 𝌆 mañana mañana hello world !') // "! dlrow olleh anañam anañam �� rab �� oof"
+
+// reverse a string supporting UTF-16 or other multi-byte characters
 function reverse(str) {
   return [...str].reverse().join('')
 }
