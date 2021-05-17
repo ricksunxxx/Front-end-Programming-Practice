@@ -17,9 +17,9 @@ function reverse(str) {
 reverse('foo 𝌆 bar 𝌆 mañana mañana hello world !') // "! dlrow olleh anañam anañam �� rab �� oof"
 
 // reverse a string without using built-in functions, only dealing with simple ASCII characters
-function reverse(s) {
-  for (var i = s.length - 1, o = ''; i >= 0; o += s[i--]) {}
-  return o
+function reverse(str) {
+  for (var i = str.length - 1, s = ''; i >= 0; s += str[i--]) {}
+  return s
 }
 reverse('foo 𝌆 bar 𝌆 mañana mañana hello world !') // "! dlrow olleh anañam anañam �� rab �� oof"
 
