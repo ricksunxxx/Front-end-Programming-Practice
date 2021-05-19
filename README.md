@@ -9,3 +9,4 @@
 [去除字符串中最后一个指定的字符](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/string-remove-last-specified-char.js)<br/>
 
 [下划线命名转成小驼峰命名](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/to-little-camel-case.js)<br/>
+[切换字符串大小写（即原来小写变大写，原来大写变小写）](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/case-convert.js)<br/>
