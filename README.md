@@ -11,3 +11,5 @@
 [下划线命名转成小驼峰命名](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/to-little-camel-case.js)<br/>
 [切换字符串大小写（即原来小写变大写，原来大写变小写）](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/case-convert.js)<br/>
 [写一个去除制表符和换行符的方法](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/remove-empty.js)<br/>
+
+[统计某一字符或字符串在另一个字符串中出现的次数](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/counter-char-from-string.js)<br/>
