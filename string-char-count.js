@@ -24,3 +24,13 @@ console.log(stringCharCount('abcabbccc', 'c')) // 4
 console.log(stringCharCount('abcabbccc', 'ab')) // 2
 console.log(stringCharCount('abcabbccc', 'abc')) // 1
 console.log(stringCharCount('abcabbccc', 'd')) // 0
+
+/**
+ * 如果字符是从左到右逐个位置进行匹配，那么算法就不一样了，举例：'aaaa'中的'aa'出现了3次
+ */
+function stringCharCount(parentStr, childStr) {
+  return (parentStr.match(new RegExp(`(?=${childStr})`, 'g')) || []).length // 正向肯定预查,非获取匹配,预查不消耗字符,在一个匹配发生后，在最后一次匹配之后立即开始下一次匹配的搜索，而不是从包含预查的字符之后开始。
+}
+
+console.log(stringCharCount('aaaa', 'aa')) // 3
+console.log(stringCharCount('ababab', 'aba')) // 2
