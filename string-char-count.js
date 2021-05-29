@@ -30,7 +30,7 @@ console.log(stringCharCount('abcabbccc', 'd')) // 0
  */
 function stringCharCount(parentStr, childStr) {+
   // 零宽度的子表达式之间是不互斥的，即同一个位置可以同时由多个零宽度子表达式匹配
-  // 因为(?=)只进行匹配，并不将匹配到的内容保存到最后结果,所以(?=)匹配成功的位置就是下次正则匹配位置的开始
+  // (?=)先行断言只进行匹配，并不将匹配到的内容保存到最后结果，也就是每次匹配成功时，不消耗子子表达式匹配到的内容
   return (parentStr.match(new RegExp(`(?=${childStr})`, 'g')) || []).length
 }
 
