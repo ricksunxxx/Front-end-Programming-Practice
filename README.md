@@ -16,4 +16,4 @@
 
 [统计某一字符或字符串在另一个字符串中出现的次数](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/string-char-count.js)
 
-[写一个加密字符串的方法](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/counter-char-from-string.js)
+[写一个加密字符串的方法](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/encode-string.js)
