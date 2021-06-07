@@ -19,7 +19,9 @@
 [写一个加密字符串的方法](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/encode-string.js)
 
 [写一个判断数据类型的方法]
+
 [写一个判断普通空对象的方法]
+
 [写一个千分位分割数字的方法]
+
 [写一个数组去重的方法]
-[写一个 promise 方法]
