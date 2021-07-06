@@ -1,6 +1,6 @@
 # Front-end-Programming-Practice
 
-前端编程练手
+## 前端编程练手
 
 [用递归算法生成随机数](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/用递归算法生成随机数.js)
 
