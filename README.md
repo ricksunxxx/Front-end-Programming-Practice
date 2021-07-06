@@ -1,6 +1,6 @@
-# Front-end-Programming-Practice
+# 前端编程练手
 
-## 前端编程练手
+>实践是检验真理的唯一标准，任何理论都要不断接受实践的检验。
 
 [用递归算法生成随机数](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/用递归算法生成随机数.js)
 
@@ -18,6 +18,8 @@
 
 [canvas如何给图片画圆角](https://github.com/ricksunxxx/Front-end-Programming-Practice/blob/main/canvas如何给图片画圆角.html)
 
+生活不易，努力更新中...
+
 [写一个加密字符串的方法]
 
 [写一个判断数据类型的方法]
@@ -27,3 +29,13 @@
 [写一个千分位分割数字的方法]
 
 [写一个数组去重的方法]
+
+## 勘误及提问
+
+如果有疑问或者发现错误，可以在相应的 issues 进行提问或勘误。
+
+如果喜欢或者有所启发，欢迎 star，对作者也是一种鼓励。
+
+## License
+
+所有文章采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。
